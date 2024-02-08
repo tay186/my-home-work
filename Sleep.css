@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo-icon {
+    width: 50px;
+    height: auto;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #ff9900;
+}
+
+.hero {
+    background: url(https://post.healthline.com/wp-content/uploads/2022/08/HL-sleep-hub-mobile-1000x400-1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 7%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin: 0 0 10px 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.recommendation {
+    background-color: #f5f5f5;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.recommendation h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.recommendation p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.recommendation-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.recommendation-list li {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.recommendation-list li:hover {
+    transform: translateY(-5px);
+}
+
+.recommendation img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.footer-top {
+    background-color: #333;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.footer-top-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-top-item {
+    margin-bottom: 10px;
+}
+
+.footer-top-item h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-top-item a {
+    display: block;
+    color: #555;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-top-item a i {
+    margin-right: 5px;
+    font-size: 1.2em;
+}
+
+.footer-top-item p {
+    text-align: center;
+}
+
+.footer-top-item a:hover {
+    color: #ff9900;
+}
